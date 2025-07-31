@@ -5,24 +5,24 @@ export default defineConfig({
   root: path.resolve(__dirname, 'src'),
   base: '/front-end-entrance-exam-1/',
   server: {
-    // Настройки для более стабильного HMR
     hmr: {
       protocol: 'ws',
       host: 'localhost',
       port: 3000,
-      overlay: false // Убирает overlay при ошибках
+      overlay: false
     },
     watch: {
-      usePolling: true, // Решает проблемы с WSL
-      interval: 500 // Проверка изменений каждые 500мс
+      usePolling: true,
+      interval: 500
     },
-    strictPort: false, // Запрещает автоматическую смену порта
-    open: true // Автоматически открывает браузер
+    strictPort: false,
+    open: true
   },
   build: {
     outDir: path.resolve(__dirname, 'dist'),
     emptyOutDir: true,
-    sourcemap: true // Для отладки
+    sourcemap: true,
+    assetsDir: 'assets' // Все ресурсы будут в папке assets
   },
   resolve: {
     alias: {
@@ -30,6 +30,6 @@ export default defineConfig({
     }
   },
   optimizeDeps: {
-    include: ['@vue/runtime-dom'] // Ускоряет запуск в dev-режиме
+    include: ['@vue/runtime-dom']
   }
 })
