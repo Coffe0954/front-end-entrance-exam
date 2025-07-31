@@ -3,6 +3,7 @@ import path from 'path'
 
 export default defineConfig({
   root: path.resolve(__dirname, 'src'),
+  base: '/front-end-entrance-exam-1/',
   server: {
     // Настройки для более стабильного HMR
     hmr: {
