@@ -3,7 +3,7 @@ const resumeData = {
         name: "Karthik SR",
         title: "UX/UI Designer",
         greeting: "Hello 👋🏻 I'm",
-        photo: "/images/profile.png",
+        photo: "images/profile.png",
         email: "srkarthik.designscape@gmail.com",
         contactText: "Let's chat! I'm ready to work on exciting projects"
     },
@@ -46,23 +46,23 @@ const resumeData = {
     ],
     tools: {
         design: [
-            { name: "Figma", icon: "/images/logoFigma.svg" },
-            { name: "Photoshop", icon: "/images/adobe-photoshop.svg" },
-            { name: "Illustrator", icon: "/images/adobe-illustrator.svg" },
-            { name: "Premiere", icon: "/images/adobe-premiere.svg" },
-            { name: "Notion", icon: "/images/logoNotion.svg" },
-            { name: "Meet", icon: "/images/logoMeet.svg" }
+            { name: "Figma", icon: "images/logoFigma.svg" },
+            { name: "Photoshop", icon: "images/adobe-photoshop.svg" },
+            { name: "Illustrator", icon: "images/adobe-illustrator.svg" },
+            { name: "Premiere", icon: "images/adobe-premiere.svg" },
+            { name: "Notion", icon: "images/logoNotion.svg" },
+            { name: "Meet", icon: "images/logoMeet.svg" }
         ],
         noCode: [
-            { name: "Zapier", icon: "/images/logoZapìer.svg" },
-            { name: "Webflow", icon: "/images/logoWebflow.svg" },
-            { name: "Framer", icon: "/images/logoFramer.svg" },
-            { name: "Wordpress", icon: "/images/logoWordpress.svg" }
+            { name: "Zapier", icon: "images/logoZapìer.svg" },
+            { name: "Webflow", icon: "images/logoWebflow.svg" },
+            { name: "Framer", icon: "images/logoFramer.svg" },
+            { name: "Wordpress", icon: "images/logoWordpress.svg" }
         ],
         ai: [
-            { name: "ChatGPT", icon: "/images/logoChatGPT.svg" },
-            { name: "Copilot", icon: "/images/logoCopilot.svg" },
-            { name: "Midjourney", icon: "/images/logoMidjourney.svg" }
+            { name: "ChatGPT", icon: "images/logoChatGPT.svg" },
+            { name: "Copilot", icon: "images/logoCopilot.svg" },
+            { name: "Midjourney", icon: "images/logoMidjourney.svg" }
         ]
     },
     education: [
