@@ -3,7 +3,7 @@ const resumeData = {
         name: "Karthik SR",
         title: "UX/UI Designer",
         greeting: "Hello 👋🏻 I'm",
-        photo: "images/profile.png",
+        photo: "./profile.png",
         email: "srkarthik.designscape@gmail.com",
         contactText: "Let's chat! I'm ready to work on exciting projects"
     },
@@ -57,11 +57,11 @@ const resumeData = {
             { name: "Zapier", icon: "images/logoZapìer.svg" },
             { name: "Webflow", icon: "images/logoWebflow.svg" },
             { name: "Framer", icon: "images/logoFramer.svg" },
-            { name: "Wordpress", icon: "images/logoWordpress.svg" }
+            { name: "Wordpress", icon: "./logoWordpress.svg" }
         ],
         ai: [
-            { name: "ChatGPT", icon: "images/logoChatGPT.svg" },
-            { name: "Copilot", icon: "images/logoCopilot.svg" },
+            { name: "ChatGPT", icon: "./logoChatGPT.svg" },
+            { name: "Copilot", icon: "./logoCopilot.svg" },
             { name: "Midjourney", icon: "images/logoMidjourney.svg" }
         ]
     },
