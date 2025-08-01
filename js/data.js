@@ -62,7 +62,7 @@ const resumeData = {
         ai: [
             { name: "ChatGPT", icon: "image/logoChatGPT.svg" },
             { name: "Copilot", icon: "image/logoCopilot.svg" },
-            { name: "Midjourney", icon: "images/logoMidjourney.svg" }
+            { name: "Midjourney", icon: "image/logoMidjourney.svg" }
         ]
     },
     education: [
