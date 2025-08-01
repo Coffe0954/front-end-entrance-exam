@@ -3,7 +3,7 @@ const resumeData = {
         name: "Karthik SR",
         title: "UX/UI Designer",
         greeting: "Hello 👋🏻 I'm",
-        photo: "./profile.png",
+        photo: "image/profile.png",
         email: "srkarthik.designscape@gmail.com",
         contactText: "Let's chat! I'm ready to work on exciting projects"
     },
@@ -46,22 +46,22 @@ const resumeData = {
     ],
     tools: {
         design: [
-            { name: "Figma", icon: "images/logoFigma.svg" },
-            { name: "Photoshop", icon: "images/adobe-photoshop.svg" },
-            { name: "Illustrator", icon: "images/adobe-illustrator.svg" },
-            { name: "Premiere", icon: "images/adobe-premiere.svg" },
-            { name: "Notion", icon: "images/logoNotion.svg" },
-            { name: "Meet", icon: "images/logoMeet.svg" }
+            { name: "Figma", icon: "image/logoFigma.svg" },
+            { name: "Photoshop", icon: "image/adobe-photoshop.svg" },
+            { name: "Illustrator", icon: "image/adobe-illustrator.svg" },
+            { name: "Premiere", icon: "image/adobe-premiere.svg" },
+            { name: "Notion", icon: "image/logoNotion.svg" },
+            { name: "Meet", icon: "image/logoMeet.svg" }
         ],
         noCode: [
-            { name: "Zapier", icon: "images/logoZapìer.svg" },
-            { name: "Webflow", icon: "images/logoWebflow.svg" },
-            { name: "Framer", icon: "images/logoFramer.svg" },
-            { name: "Wordpress", icon: "./logoWordpress.svg" }
+            { name: "Zapier", icon: "image/logoZapìer.svg" },
+            { name: "Webflow", icon: "image/logoWebflow.svg" },
+            { name: "Framer", icon: "image/logoFramer.svg" },
+            { name: "Wordpress", icon: "image/logoWordpress.svg" }
         ],
         ai: [
-            { name: "ChatGPT", icon: "./logoChatGPT.svg" },
-            { name: "Copilot", icon: "./logoCopilot.svg" },
+            { name: "ChatGPT", icon: "image/logoChatGPT.svg" },
+            { name: "Copilot", icon: "image/logoCopilot.svg" },
             { name: "Midjourney", icon: "images/logoMidjourney.svg" }
         ]
     },
